@@ -1,3 +1,5 @@
+
+/* Header Customization */
 .header {
   width: 100%;
   display: inline-flex;
@@ -6,12 +8,12 @@
   font-family: Verdana;
   font-weight: bold;
   font-size: 14px;
+  padding-bottom: 10px;
 }
 
 .left {
   width: 100%;
   display: inline-flex;
-  border: thin solid black;
   align-items: center;
   padding-left: 30px;
 }
@@ -22,7 +24,55 @@ nav {
   justify-content: space-between;
 }
 
+a {
+  color: black;
+}
+
 #title {
   padding-left: 14px;
   color: MediumAquamarine;
+}
+
+/* Main Content Customization */
+
+.content {
+  display: flex;
+  width: 1240;
+  height: 100%;
+  border: thin solid black;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  border: thin solid black;
+  text-align: left;
+}
+
+/* Leftmost column */
+
+.column.left {
+  width: 630px;
+}
+
+/* Middle column */
+
+.column.mid {
+  width: 300px;
+}
+
+/* Last column */
+
+.column.last {
+  width: 240px;
+}
+
+.first.left {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+}
+
+.mid.left {
+  border: thin solid black;
 }
