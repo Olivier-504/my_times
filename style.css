@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  border: thin solid black;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.left {
+  width: 100%;
+  display: inline-flex;
+  border: thin solid black;
+  align-items: center;
+  padding-left: 30px;
+}
+
+nav {
+  width: 400px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+#title {
+  padding-left: 14px;
+  color: MediumAquamarine;
+}
